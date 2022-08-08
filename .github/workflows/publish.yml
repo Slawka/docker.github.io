@@ -44,7 +44,7 @@ jobs:
             DOCS_AWS_IAM_ROLE="arn:aws:iam::710015040892:role/labs-docs-docker.github.io-20220728143917865600000003"
             DOCS_S3_BUCKET="labs-docs-docker.github.io"
             DOCS_CLOUDFRONT_ID="E1MYDYF65FW3HG"
-            DOCS_LAMBDA_FUNCTION_REDIRECTS="DockerDocsRedirectFunction"
+            DOCS_LAMBDA_FUNCTION_REDIRECTS="DockerDocsRedirectFunction-labs"
             DOCS_LAMBDA_FUNCTION_CACHE=""
           else
             echo >&2 "ERROR: unknown branch ${{ github.ref }}"
